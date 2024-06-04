@@ -1,0 +1,85 @@
+.createGroup {
+  width: 1161px;
+  height: 736px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 28.31px;
+  background-color: #fff;
+  border-radius: 16px;
+  margin: 0 13px;
+  margin-bottom: 29px;
+}
+.createGroup > form > b {
+  font-size: 24px;
+  font-weight: 400;
+  color: #00261c;
+  font-family: Roboto;
+  margin-bottom: 70px;
+}
+.inputs {
+  width: 100%;
+  display: flex;
+  height: 297px;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.inputs > label {
+  width: 328px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+.inputs > label > p {
+  font-size: 12px;
+  font-weight: 500;
+  font-family: Roboto;
+}
+.inputs > label > input,
+.inputs > label > select {
+  width: 100%;
+  border: 1px solid #d6e4ec;
+  outline: none;
+  height: 40px;
+  border-radius: 6px;
+  background-color: #fff;
+  padding-left: 16px;
+  font-weight: 300;
+  font-size: 16px;
+  font-family: Roboto;
+  color: #000;
+  display: flex;
+  align-items: center;
+}
+.inputs > label > input::placeholder,
+.inputs > label > select::placeholder {
+  font-weight: 300;
+  font-size: 16px;
+  font-family: Roboto;
+  color: #aabbc6;
+}
+.createGroup > form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 702.5px;
+}
+
+.createGroup > form > button{
+    width: 329px;
+    height: 39px ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 300;
+    margin-top: 33px;
+    font-family: Roboto;
+    border-radius: 6px;
+    background-color: #00DE66;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}

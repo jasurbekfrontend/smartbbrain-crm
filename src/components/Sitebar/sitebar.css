@@ -1,0 +1,25 @@
+.sitebar {
+  width: 255px;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  padding-left: 28px;
+  padding-top: 129px;
+  gap: 16px;
+  background-color: #fff;
+}
+.sitebar > a {
+  width: 195px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+  gap: 12px;
+  font-size: 18px;
+  text-decoration: none;
+  color: #00140e;
+  font-family: Roboto;
+}
+.sitebar > a:nth-child(1) {
+  color: #00dea3;
+}
